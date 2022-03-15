@@ -10,5 +10,5 @@ O projeto contém um Dockerfile para o uso do container no momento de rodar a ap
 
 Pontos que não foram atendidos (imprevistos):
 
-Teste unitários
-Requisição para os períodos: Dawn, Morning, Afternoon, Night
+- Teste unitários
+- Requisição para os períodos: Dawn, Morning, Afternoon, Night
