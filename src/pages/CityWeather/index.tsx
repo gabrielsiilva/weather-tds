@@ -40,7 +40,6 @@ function CityWeather() {
   }, [location.state]);
 
   const checkWeatherTemperatureInfo = (weatherInfo: string) => {
-    console.log(weatherInfo);
     if (weatherInfo === 'Snow') return { text: 'snowy', icon: snowIcon };
     else if (weatherInfo === 'Rain') return { text: 'rainy', icon: rainIcon };
     else if (weatherInfo === 'Clouds') return { text: 'cloudy', icon: cloudIcon };
